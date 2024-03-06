@@ -1,0 +1,30 @@
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+}
+
+.inputContainer label {
+  text-align: start;
+  width: 90%;
+  color: #afabb6;
+  font-size: 14px;
+}
+
+.searchInput {
+  border: 1px solid #252529;
+  background: #111112;
+  outline: none;
+  color: #afabb6;
+  border-radius: 6px;
+  height: 2.5rem;
+  width: 90%;
+  padding: 0.5rem;
+}
+
+.searchInput::placeholder {
+  color: #afabb6;
+}
